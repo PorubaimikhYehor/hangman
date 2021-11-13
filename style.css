@@ -1,0 +1,27 @@
+p{
+    padding: 0;
+    margin: 0;
+}
+.letter-button{
+    height: 24px;
+    width: 32px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    margin: 4px;
+}
+.word-letter{
+    height: 48px;
+    width: 32px;
+    border: 2px solid grey;    
+    margin: 4px;
+    font-size: 32px;
+}
+.flex{
+display: flex;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.justify-center{
+    justify-content: center;
+}
