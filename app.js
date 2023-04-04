@@ -41,8 +41,8 @@ function clickNewWord() {
     showAlphabet()
 }
 function letterClick(event) {
-    alphabet[event.path[0].innerText] = true;
-    event.path[0].disabled = true;
+    alphabet[event.target.innerText] = true;
+    event.target.disabled = true;
     showWord();
 }
 function createElement(tagName, parentElement, options) {
